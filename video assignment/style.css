@@ -1,0 +1,450 @@
+
+
+
+h1,h2,h3,h4,h5,h6,span,body{
+    font-family:'Work Sans', sans-serif !important;
+}
+
+
+.header-section{
+    padding: 20px 0;
+    background: white;
+}
+
+
+.logo span {
+	font-size: 35px;
+	background: #6278df;
+	color: white;
+	padding: 10px 16px;
+	border-radius: 25%;
+}
+.logo h1 {
+	font-size: 24px;
+	display: inline;
+	position: relative;
+	top: -3px;
+	left: 10px;
+}
+.menu{
+    background: white;
+}
+.menu ul{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li {
+	display: inline-block;
+	padding: 0 15px;
+	position: relative;
+	
+}
+.menu ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	
+}
+.h-menu ul li ul {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	top: -63%;
+	margin-top: 39px;
+	margin-left: -154px;
+	border: none;
+	transition: -5s;
+}
+.h-menu ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+}
+.h-menu ul li a:hover{
+    color:#6278df;
+}
+.menu-btn{
+	background: white;
+	color: #6278df;
+	border: 2px solid #6278df;
+	padding: 10px;
+}
+.menu-btn:hover{
+	background: #6278df;
+	color: white;
+	box-shadow: 2px 2px 12px #6278df;
+}
+
+
+/* banner- sec */
+
+
+.banner-sec {
+	background: url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg);
+	padding: 100px;
+	background-position: top center;
+	margin-top: 94px;
+}
+.banner-sec-item{
+    color: white;
+}
+.banner-sec-item h4 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.banner-sec-item h1 {
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+.ip {
+	display: inline-block;
+	padding: 20px;
+	border: none;
+	border-radius: 5px;
+}
+.banner-sec .btn {
+	display: inline-block;
+	padding: 13px 80px;
+	margin-left: 70px;
+}
+.iq{
+    display: inline-block;
+}
+.banner-btn{
+    background: #5ba533;
+    font-size: 25px;
+    color: white;
+}
+.banner-btn:hover{
+    background: white;
+    color: #6278df;
+    box-sizing: border-box;
+	box-shadow: 2px 2px 12px #6278df ;
+}
+
+/* banner-sec end */
+
+/* number-sec */
+
+
+.number-sec{
+    padding: 50px;
+}
+.number-item h1 {
+	font-size: 60px;
+}
+
+
+/* info-sec */
+
+
+.info-sec{
+    background: #f7f9ff;
+}
+.info-text {
+	margin-right: 40px;
+}
+.info-text h1 {
+	margin-top: 175px;
+	margin-bottom: 40px;
+	font-size: 45px;
+}
+.info-text p {
+	font-size: 22px;
+	font-weight: 400;
+}
+.info-img img {
+	width: 350px;
+}
+/* info end */
+
+/* learn more sec */
+
+
+.l-m-card{
+    box-shadow: 2px 2px 12px rgb(238, 234, 234);
+}
+
+.l-m-img img {
+	max-width: 100%;
+	height: 230px;
+}
+.barkat h5 {
+	margin-top: 40px;
+	margin-bottom: 15px;
+	margin-left: -37px;
+}
+.barkat p {
+	font-size: 15px;
+	text-align: left;
+	margin-left: 30px;
+}
+
+/* learn more sec end */
+
+
+/* img sec */
+
+
+.img-sec-item{
+    text-align: center;
+    
+}
+.img-sec-item h1{
+    margin-bottom: 50px;
+}
+.i-sec {
+	height: 250px;
+	width: 375px;
+	margin: 20px;
+	padding: 0;
+}
+.i-sec img{
+    max-width: 100%;
+}
+.i-sec img:hover{
+    background-color: #9aa8e6;
+}
+
+/* img sec end */
+
+
+/* plan sec */
+.c-container{
+	width: 1240px;
+	margin: auto;
+}
+.plan-sec{
+	background: #f7f9ff;
+	padding: 50px;
+}
+.plan-header{
+	text-align: center;
+}
+.plan-header h1 {
+	margin-bottom: 40px;
+	font-size: 50px;
+}
+.plan-header p {
+	margin-bottom: 60px;
+	font-size: 25px;
+}
+.c-header p {
+	font-size: 22px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.c-list span i {
+	width: 50px;
+	margin-left: -32px;
+	color: #6278df;
+}
+.c-list ul{
+	list-style: none;
+}
+.c-list ul li {
+	font-size: 25px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.c-btn {
+	margin: auto;
+	margin-top: 40px;
+	border-radius: 5px;
+}
+.c-btn a {
+	width: 180px;
+	height: 50px;
+	line-height: 35px;
+	box-shadow: 2px 2px 10px #e8e3e3;
+	border: none;
+	font-size: 20px;
+	font-weight: 500;
+}
+.c-btn a:hover{
+	background: #000 !important;
+	color: white;
+}
+.cc:hover .c-btn a{
+	background: #6278df;
+	color: white;
+}
+
+/* plan sec end */
+
+/* user -sec */
+
+
+.user-info h3 {
+	font-weight: 300;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+.user-info h1 {
+	font-weight: 400;
+	font-size: 45px;
+}
+
+.user-info span i {
+	font-size: 70px;
+	color: #f4f0f0a3;
+}
+.user-info p {
+	font-size: 20px;
+	width: 930px;
+	margin: auto;
+	color: #767676;
+}
+
+.user-img {
+	height: 65px;
+	width: 65px;
+	margin: auto;
+	margin-left: 530px;
+	margin-top: 40px;
+}
+.user-img img {
+	max-width: 100%;
+	border-radius: 50%;
+}
+.user-about {
+	margin-left: 40px;
+	margin-top: -54px;
+}
+.user-about h4 {
+	font-weight: 500;
+	font-size: 20px;
+}
+.user-about p {
+	margin-left: 135px;
+	font-size: 15px;
+}
+
+/* user sec end */
+
+
+/* team sec */
+
+
+.team-sec{
+	background: #f7f9ff;
+	padding: 50px;
+}
+.team-sec p {
+	font-size: 20px;
+	color: #767676;
+}
+
+
+.profile img {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	position: relative;
+	top: 62px;
+	left: 20px;
+	z-index: 1;
+}
+.profile h2 {
+	margin-top: 100px;
+	font-size: 22px;
+}
+.profile h1 {
+	font-size: 22px;
+}
+.profile a {
+	width: 110px;
+	margin: auto;
+}
+
+.profile-btn{
+	background: white;
+	color: black;
+}
+
+.profile-btn:hover{
+	background: #000;
+	color: white;
+
+}
+
+/* team sec end */
+
+
+/* submit sec */
+.submit-btn {
+	text-align: center;
+	height: 70px;
+	width: 207px;
+	margin: auto;
+	background: #6278df;
+	color: white;
+}
+.btn-s{
+	text-align: center;
+}
+.submit-c h2 {
+	text-align: center;
+	font-size: 26px;
+	margin-top: 30px;
+}
+.submit-btn:hover{
+	background: white;
+	color: #6278df;
+	box-shadow: 2px 2px 10px #6278df;
+}
+.submit-sec{
+	text-align: center;
+	padding: 50px;
+}
+.submit-sec h5 {
+	color: #767676;
+	margin-top: 30px;
+	font-size: 12opx;
+}
+.submit-sec h1 {
+	margin-bottom: 100px;
+	margin-top: 40px;
+	font-size: 45px;
+}
+.health p {
+	font-size: 25px;
+	margin-top: 100px;
+	color: #767676;
+}
+.submit-sec h1 {
+	margin-bottom: 100px;
+	margin-top: 40px;
+	font-size: 45px;
+	font-weight: 400;
+}
+.health-btn{
+	background: white;
+	color: yellowgreen;
+	border: 2px solid yellowgreen;
+	margin-right: -10px;
+
+}
+.health-btn:hover{
+	background: yellowgreen;
+	color: white;
+	box-shadow: 2px 2px 10px yellowgreen;
+}
+.health-btn2 {
+	background: yellowgreen;
+	color: white;
+	box-shadow: 2px 2px 10px yellowgreen;
+	margin-left: 50px;
+	box-shadow: 2px 2px 10px yellowgreen;
+}
+.health-btn2:hover{
+	background: #000;
+	color: white;
+
+}
+.health-img {
+	height: 400px;
+}
+.footer {
+	background: #f7f7f7;
+}
